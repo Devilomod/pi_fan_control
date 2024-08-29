@@ -1,0 +1,13 @@
+{
+  "name": "Pi Fan Control",
+  "version": "1.0",
+  "slug": "pi_fan_control",
+  "description": "Add-on zur Steuerung des Raspberry Pi 5 Lüfters.",
+  "startup": "services",
+  "arch": ["armhf", "armv7", "aarch64"],
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "privileged": ["SYS_ADMIN", "SYS_RAWIO"],
+  "host_network": true
+}
